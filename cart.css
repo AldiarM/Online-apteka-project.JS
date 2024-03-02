@@ -93,35 +93,38 @@ header input {
     position: absolute;
     right: 0;
     padding: 0px 50px;
+    align-items: center;
 }
 .icon1 {
     padding: 0px 20px;
     font-size: 32px;
     color: black;
+    align-items: center;
+    
 }
 .textIcon  {
     font-size: 20px;
-    align-items: center;
     text-decoration: none;
     color: black;
 }
 
-.container-cart2 {
+/* .container-card2 {
     margin-top: 3%;
     display: flex;
     gap: 20px;
     justify-content: center;
-}
+} */
 
-.cart {
+.card {
     display: flex;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
     gap: 10px;
     text-decoration: none;
+    padding: 8px 8px;
 }
 
-.cart > a{
+.card > a{
     text-decoration: none;
     color: black;
 }
@@ -137,13 +140,13 @@ header input {
 
 .purchase-details {
     background-color: rgb(255, 255, 255);
-    width: 410px;
-    height: 100%;
+    width: 360px;
+    height: 700px;
     margin: 15px;
     padding: 15px;
 }
 
-
+/* ------------------------------------------------------------ */
 .switch {
     position: relative;
     display: inline-block;
@@ -206,27 +209,70 @@ header input {
 
     padding: 0px 20px;
   }
-
+/* ------------------------------------------------------------ */
   .main-content {
     display: flex;
     justify-content: center;
+    padding: 15px 1px;
   }
 
-  .cart {
+  .card {
     display: flex;
-    flex-direction: column;
-    gap: 5px;
+    /* flex-direction: column;
+    gap: 5px; */
     text-align: start;
     max-width: 240px;
     height: 100%;
     border-radius: 10px;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
+
 }
 
-.carts {
+.cards {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+    gap: 10px;
+    justify-content: right;
+    
 }
+
+
+.card > h2 {
+    text-align:start;
+    justify-content: start;
+    margin: 0px;
+}
+
+.favorites {
+    display: flex;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    font-size: 30px;
+}
+
+.button-card {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    
+}
+
+.cart {
+    background-color: rgb(255, 255, 255);
+    border: 5%;
+    border-color: rgb(86, 86, 86);
+    border-radius: 3px;
+    margin: 15px 15px;
+    padding: 12px 22px;
+}
+
+
+
+.cards2 {
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+    margin-top: 2%;
+}
+
